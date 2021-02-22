@@ -11,7 +11,7 @@ const DialogItem = (props) => {
 }
 
 const Message = (props) => {
-    return <div className={s.dialog}>{props.message}</div>
+    return (<div className={s.dialog}>{props.message}</div>)
 }
 
 const Dialogs = (props) => {
